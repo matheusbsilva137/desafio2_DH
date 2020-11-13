@@ -1,7 +1,8 @@
-package com.digitalhouse.desafio2_dh
+package com.digitalhouse.desafio2_dh.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.digitalhouse.desafio2_dh.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

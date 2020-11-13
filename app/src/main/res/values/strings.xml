@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">Desafio2_DH</string>
+    <string name="app_name">Digital House Foods</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="log_in">LOG IN</string>
+    <string name="or">OR</string>
+    <string name="register">Register</string>
+    <string name="name">Name</string>
+    <string name="repeat_password">Repeat password</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
