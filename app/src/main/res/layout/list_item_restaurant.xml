@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardRestaurante"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="5dp"
+        app:cardBackgroundColor="@color/white"
+        android:outlineSpotShadowColor="@color/black">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ivRes"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:cropToPadding="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/image1"/>
+
+            <TextView
+                android:id="@+id/tvNomeRes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="@color/titleColor"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:id="@+id/tvEndRes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13dp"
+                android:layout_marginLeft="5dp"
+                android:text="@string/app_name"/>
+
+            <TextView
+                android:id="@+id/tvHorFechRes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13dp"
+                android:layout_marginLeft="5dp"
+                android:text="@string/app_name"
+                android:layout_marginBottom="5dp"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
