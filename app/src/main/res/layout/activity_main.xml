@@ -25,6 +25,4 @@
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
             tools:listitem="@layout/list_item_restaurant"/>
     </LinearLayout>
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>
