@@ -25,7 +25,6 @@ class LoginFragment : Fragment() {
 
         view.btnLogin.setOnClickListener{
             startActivity(Intent(activity, MainActivity::class.java))
-            activity?.finish()
         }
 
         return view
