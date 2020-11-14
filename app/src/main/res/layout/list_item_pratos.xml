@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -18,6 +18,7 @@
             android:orientation="vertical">
 
             <ImageView
+                android:id="@+id/ivPratoRes"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:cropToPadding="true"
@@ -25,8 +26,9 @@
                 android:src="@drawable/image4"/>
 
             <TextView
+                android:id="@+id/tvNomePratoRes"
                 android:layout_width="match_parent"
-                android:layout_height="20dp"
+                android:layout_height="35dp"
                 android:text="Nome do Prato"
                 android:textStyle="bold"
                 android:textAlignment="center"
