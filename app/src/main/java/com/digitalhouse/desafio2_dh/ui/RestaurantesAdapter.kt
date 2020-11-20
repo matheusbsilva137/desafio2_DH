@@ -6,13 +6,10 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
-import android.widget.Toast
-import androidx.core.content.ContextCompat.startActivity
 import androidx.recyclerview.widget.RecyclerView
 import com.digitalhouse.desafio2_dh.R
-import kotlinx.android.synthetic.main.activity_restaurante.view.*
+import com.digitalhouse.desafio2_dh.domain.Restaurante
 import kotlinx.android.synthetic.main.activity_restaurante.view.tvNomeRes
-import kotlinx.android.synthetic.main.list_item_restaurant.view.*
 
 class RestaurantesAdapter (private val listaRestaurantes: ArrayList<Restaurante>): RecyclerView.Adapter<RestaurantesAdapter.RestaurantesViewHolder>() {
 
