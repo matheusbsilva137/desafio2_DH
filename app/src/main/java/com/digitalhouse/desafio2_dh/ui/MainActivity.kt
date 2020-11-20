@@ -1,14 +1,11 @@
 package com.digitalhouse.desafio2_dh.ui
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.LinearLayout
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.digitalhouse.desafio2_dh.R
+import com.digitalhouse.desafio2_dh.domain.Restaurante
 import kotlinx.android.synthetic.main.activity_main.*
-import kotlinx.android.synthetic.main.fragment_login.*
-import kotlinx.android.synthetic.main.list_item_restaurant.*
 
 class MainActivity : AppCompatActivity() {
     lateinit var listRestaurantes : ArrayList<Restaurante>

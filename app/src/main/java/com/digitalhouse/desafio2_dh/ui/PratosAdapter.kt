@@ -8,8 +8,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.digitalhouse.desafio2_dh.R
-import kotlinx.android.synthetic.main.activity_restaurante.view.*
-import kotlinx.android.synthetic.main.list_item_pratos.view.*
+import com.digitalhouse.desafio2_dh.domain.Prato
 
 class PratosAdapter (private val listaPratos: ArrayList<Prato>): RecyclerView.Adapter<PratosAdapter.PratosViewHolder>() {
 

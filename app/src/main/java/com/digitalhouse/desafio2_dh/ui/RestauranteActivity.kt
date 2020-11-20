@@ -2,8 +2,8 @@ package com.digitalhouse.desafio2_dh.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.navigation.ActivityNavigator
 import com.digitalhouse.desafio2_dh.R
+import com.digitalhouse.desafio2_dh.domain.Prato
 import kotlinx.android.synthetic.main.activity_restaurante.*
 
 class RestauranteActivity : AppCompatActivity() {
